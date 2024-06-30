@@ -12,11 +12,11 @@ class SideDrawer extends StatelessWidget {
             const UserAccountsDrawerHeader(
               accountName: Text(
                 'Maram Allah',
-                style: TextStyle(fontWeight: FontWeight.bold, color:Colors.green),
+                style: TextStyle(fontWeight: FontWeight.bold, color: Color.fromARGB(255, 6, 61, 12)),
               ),
               accountEmail: Text(
                 'Media Committee',
-                style: TextStyle(fontWeight: FontWeight.bold, color: Colors.green),
+                style: TextStyle(fontWeight: FontWeight.bold, color:  Color.fromARGB(255, 6, 61, 12)),
               ),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage("assets/images/profile Picture.jpg"),
@@ -26,10 +26,10 @@ class SideDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.home, color: Colors.green), // Change icon color to green
+              leading: const Icon(Icons.home, color:  Color.fromARGB(255, 6, 61, 12)), // Change icon color to green
               title: const Text(
                 'Home',
-                style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                style: TextStyle(color:  Color.fromARGB(255, 6, 61, 12), fontWeight: FontWeight.bold),
               ), // Change text color to green
               onTap: () {
                 Navigator.pop(context);
@@ -37,10 +37,10 @@ class SideDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.person, color: Colors.green), // Change icon color to green
+              leading: const Icon(Icons.person, color:  Color.fromARGB(255, 6, 61, 12)), // Change icon color to green
               title: const Text(
                 'Profile',
-                style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                style: TextStyle(color:  Color.fromARGB(255, 6, 61, 12), fontWeight: FontWeight.bold),
               ), // Change text color to green
               onTap: () {
                 Navigator.pop(context);
@@ -48,10 +48,10 @@ class SideDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.group, color: Colors.green), // Change icon color to green
+              leading: const Icon(Icons.group, color:  Color.fromARGB(255, 6, 61, 12)), // Change icon color to green
               title: const Text(
                 'Other Committees',
-                style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                style: TextStyle(color:  Color.fromARGB(255, 6, 61, 12), fontWeight: FontWeight.bold),
               ), // Change text color to green
               onTap: () {
                 Navigator.pop(context);
@@ -59,10 +59,10 @@ class SideDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.settings, color: Colors.green), // Change icon color to green
+              leading: const Icon(Icons.settings, color:  Color.fromARGB(255, 6, 61, 12)), // Change icon color to green
               title: const Text(
                 'Settings',
-                style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                style: TextStyle(color:  Color.fromARGB(255, 6, 61, 12), fontWeight: FontWeight.bold),
               ), // Change text color to green
               onTap: () {
                 Navigator.pop(context);
@@ -70,10 +70,10 @@ class SideDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.logout, color: Colors.green), // Change icon color to green
+              leading: const Icon(Icons.logout, color:  Color.fromARGB(255, 6, 61, 12)), // Change icon color to green
               title: const Text(
                 'Logout',
-                style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                style: TextStyle(color:  Color.fromARGB(255, 6, 61, 12), fontWeight: FontWeight.bold),
               ), // Change text color to green
               onTap: () {
                 // Handle logout

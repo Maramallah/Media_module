@@ -3,6 +3,7 @@ import 'package:media/Widgets/side_drawer.dart'; // Import the SideDrawer file
 import 'package:media/Screens/materials_screen.dart'; // Import the MaterialsScreen file
 import 'package:media/Screens/tasks_screen.dart'; // Import the TasksScreen file
 import 'package:media/Screens/events_screen.dart'; // Import the EventsScreen file
+import 'package:media/screens/membersscreen.dart';
 import 'package:media/screens/social_media.dart'; // Import the MembersScreen file
 
 void main() {
@@ -15,7 +16,7 @@ class MediaMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4, // Number of tabs
+      length: 5, // Number of tabs
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Media Committee'),
@@ -30,7 +31,7 @@ class MediaMain extends StatelessWidget {
             },
           ),
           bottom: const TabBar(
-             indicatorColor: Colors.green, // Color of the indicator line
+             indicatorColor:  Color.fromARGB(255, 6, 61, 12), // Color of the indicator line
            
             tabs: [
               Tab(text: 'Materials'),
@@ -47,7 +48,8 @@ class MediaMain extends StatelessWidget {
             MaterialsScreen(), // Use the MaterialsScreen widget
             TasksScreen(), // Use the TasksScreen widget
             EventsScreen(), // Use the EventsScreen widget
-            SocialMediaScreen(), // Use the MembersScreen widget
+            SocialMediaScreen(),
+            MembersScreen()// Use the MembersScreen widget
           ],
         ),
       ),
