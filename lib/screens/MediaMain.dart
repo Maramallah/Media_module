@@ -43,12 +43,12 @@ class MediaMain extends StatelessWidget {
           ),
         ),
         drawer: SideDrawer(), // Use the SideDrawer widget
-        body: const TabBarView(
+        body:  TabBarView(
           children: [
             MaterialsScreen(), // Use the MaterialsScreen widget
             TasksScreen(), // Use the TasksScreen widget
             EventsScreen(), // Use the EventsScreen widget
-            SocialMediaScreen(),
+           Socialmediascreen(),
             MembersScreen()// Use the MembersScreen widget
           ],
         ),
