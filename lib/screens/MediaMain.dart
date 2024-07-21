@@ -47,9 +47,9 @@ class MediaMain extends StatelessWidget {
           children: [
             MaterialsScreen(), // Use the MaterialsScreen widget
             TasksScreen(), // Use the TasksScreen widget
-            EventsScreen(), // Use the EventsScreen widget
+            EventsScreen(isAdmin: true,), // Use the EventsScreen widget
            Socialmediascreen(),
-            MembersScreen()// Use the MembersScreen widget
+            MembersScreen(isAdmin: true,)// Use the MembersScreen widget
           ],
         ),
       ),

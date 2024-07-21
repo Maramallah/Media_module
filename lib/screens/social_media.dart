@@ -64,10 +64,11 @@ class _SocialmediascreenState extends State<Socialmediascreen> {
                     ),
                   ),
                 ),
+                /*
                 ElevatedButton(
                   onPressed: addNewPost,
                   style: ButtonStyle(
-                    backgroundColor: WidgetStateProperty.all<Color>(Colors.green),
+                   backgroundColor: WidgetStateProperty.all<Color>(Colors.green),
                     shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8.0),
@@ -76,7 +77,7 @@ class _SocialmediascreenState extends State<Socialmediascreen> {
                     ),
                   ),
                   child: Text('Add Post',style: TextStyle(color: Colors.white),),
-                ),
+                ),*/
                 Expanded(
                   child: ListView.builder(
                     itemCount: contentManger.content.length,
